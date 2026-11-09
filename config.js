@@ -1,9 +1,8 @@
-// Public connection details for the FleetMonitor Supabase project.
-// The publishable key is designed to be public: row-level security in the database is what protects the data.
-// Never put a secret or service_role key in this file.
+// NEON TEST COPY. This build never talks to Supabase: supabase.js is Neon's client and holds the Neon addresses.
+// These two fields are only kept because the app passes them along; they are deliberately empty.
 export const CONFIG = {
-  supabaseUrl: 'https://qfszeiakbjunaeosglmf.supabase.co',
-  supabaseKey: 'sb_publishable_xYGF7V4DVKmQJqL_MpHG2Q_ZgvY5YT4',
+  supabaseUrl: '',
+  supabaseKey: '',
   appName: 'FleetRecord',
   // Branding for the sign-in screen, which appears before we know who is signing in.
   // After sign-in the organisation's own brand (organisations.brand in the database) takes over.
