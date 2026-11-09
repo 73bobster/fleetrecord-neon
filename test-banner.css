@@ -1,0 +1,7 @@
+/* Test build only: makes it obvious this is the Neon proof of concept, not the live FleetRecord. */
+:root { --tb-h: 34px; }
+body { padding-top: var(--tb-h); }
+#test-banner { position: fixed; inset: 0 0 auto 0; height: var(--tb-h); z-index: 2147483000; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 0 12px; background: #0b1b3a; color: #fff; font: 600 12px/1.2 system-ui, sans-serif; letter-spacing: .04em; border-bottom: 3px solid #ff3d9a; text-align: center; }
+#test-banner b { background: #ff3d9a; color: #0b1b3a; padding: 2px 8px; border-radius: 999px; letter-spacing: .08em; }
+#test-banner a { color: #9fd0ff; }
+@media (max-width: 640px) { #test-banner span.long { display: none; } }
